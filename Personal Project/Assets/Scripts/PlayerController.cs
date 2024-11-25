@@ -9,9 +9,10 @@ public class Scripts : MonoBehaviour
 
     private Rigidbody playerRb;
     public GameObject projectilePrefab;
-    private float speed = 10.0f;
+    private float speed = 15.0f;
 
     private float xRange = 21.5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class Scripts : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, transform.position , projectilePrefab.transform.rotation);
         }
 
         if (transform.position.x < -xRange)
@@ -40,4 +41,14 @@ public class Scripts : MonoBehaviour
         }
         
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Player collides with enemy");
+        }
+    }
+
+    
 }

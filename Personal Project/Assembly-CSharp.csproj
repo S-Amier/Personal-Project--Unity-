@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\MoveForward.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\DestroyUponImpact.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     private float spawnRangeX = 21.5f;
+    private float spawnPosY = 0.8f;
     private float spawnPosZ = 18.0f;
     public GameObject [] shipPrefabs;
 
@@ -23,7 +24,7 @@ public class SpawnManager : MonoBehaviour
 
     void spawnRandomShip()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), spawnPosY, spawnPosZ);
 
         int shipIndex = Random.Range(0, shipPrefabs.Length);
         Instantiate (shipPrefabs[shipIndex], spawnPos, shipPrefabs[shipIndex].transform.rotation);

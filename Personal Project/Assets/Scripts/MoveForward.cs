@@ -22,6 +22,6 @@ public class MoveForward : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Destroy.
+    
     }
 }
