@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UIElements;
 
 public class Enemy : MonoBehaviour
 {
     public GameManager gameManager;
     public int pointValue;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +29,6 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
             Destroy(other.gameObject);
             gameManager.UpdateScore(pointValue);
-            
         }
     }
 }
