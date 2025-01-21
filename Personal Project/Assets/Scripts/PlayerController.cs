@@ -51,6 +51,7 @@ public class Scripts : MonoBehaviour
         if(collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Player collides with enemy");
+            gameManager.GameOver();
         }
     }
 
