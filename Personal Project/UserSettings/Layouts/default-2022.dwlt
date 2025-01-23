@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 25
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 72
+  controlID: 50
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -515,18 +515,18 @@ MonoBehaviour:
     m_ExpandedIDs: ffffffff00000000e45b0000e65b0000e85b0000ea5b0000ec5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: DifficulyButton
+      m_OriginalName: DifficulyButton
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 4870
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -635,7 +635,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.22534788, y: -0.27302346, z: 0.06594847, w: -0.93292624}
     speed: 2
-    m_Value: {x: -0.22534788, y: -0.27302346, z: 0.06594847, w: -0.93292624}
+    m_Value: {x: -0.22534516, y: -0.27302018, z: 0.065947674, w: -0.93291503}
   m_Size:
     m_Target: 10
     speed: 2
@@ -1112,9 +1112,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_SelectedIDs: 60680000
+      m_LastClickedID: 26720
+      m_ExpandedIDs: 3ac7fffff2cbffff44ccffffb6cdffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
